@@ -1,0 +1,6 @@
+# No external dependencies required
+# The wifi-command-tester uses only Python standard library modules:
+# - socket
+# - threading  
+# - tkinter
+# - sys
