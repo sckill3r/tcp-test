@@ -4,8 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python server.py 0.0.0.0 $PORT",
-    "healthcheckPath": "/",
+    "startCommand": "python server_headless.py 0.0.0.0 $PORT",
     "healthcheckTimeout": 100,
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
